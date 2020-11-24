@@ -1,24 +1,17 @@
-# front_end_vue
+# 基于Vue的资金管理系统，后端使用nodeJS实现
 
-## Project setup
+## 项目启动
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
+## 技术栈
+- vue
+- vuex
+- vue-router
+- axios
+- element-ui
+- 
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 后台系统
+查看 [node-rms](https://cli.vuejs.org/config/).

@@ -58,6 +58,9 @@ name: "login",
           // this.$router.push('/login')
           this.axios.post('/api/users/login',this.ruleForm).then(res=>{
             console.log(res.data)
+            this.resetForm('ruleForm')
+          }).catch((err)=>{
+             throw err
           })
         }else{
           console.log('提交失败');
