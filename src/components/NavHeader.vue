@@ -1,14 +1,20 @@
 <template>
   <div class="hello">
     <h1>Header</h1>
+    <h1>{{num}}</h1>
   </div>
 </template>
 
 <script>
+import {mapState} from "vuex";
+
 export default {
   name: 'NavHeader',
   props: {
     msg: String
+  },
+  computed:{
+    ...mapState(['num'])
   }
 }
 </script>

@@ -9,8 +9,8 @@ const router = new Router({
     routes:[
         {path: '*' ,name: '/NotFind', component: NotFind},
         {path: '/' ,redirect: '/index'},
-        {path: '/login' ,name: '/login', component: ()=>import('../views/Login')},
-        {path: '/register' ,name: '/register', component: ()=>import('../views/Register')},
+        {path: '/login' ,name: 'login', component: ()=>import('../views/Login')},
+        {path: '/register' ,name: 'Register', component: ()=>import('../views/Register')},
         {path: '/index' ,name: '/index', component: ()=>import('../views/Index')}
     ]
 

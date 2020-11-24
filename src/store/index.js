@@ -3,7 +3,9 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
-const state = {}
+const state = {
+    num: 10
+}
 const getters = {}
 const mutations = {}
 const actions = {}
